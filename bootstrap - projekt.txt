@@ -1,0 +1,6 @@
+bootstrap
+strona glowna - opis hobby, kto zrobil strone
+2 strona - formularz
+3 strona - hobby - artykuly o hobby i aside
+
+bez responsywnosci
