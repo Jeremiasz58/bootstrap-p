@@ -3,7 +3,48 @@
   flex-direction: column;
 }
 
+body{
+  background-image: url('https://picsum.photos/1920/1080?grayscale');
+  backdrop-filter: blur(4px);
+  background-repeat:no-repeat;
+background-size:auto;
+background-position:center;
+}
+
 main {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5vh;
+  position: relative;
+}
+
+#accordionExample{
+  width: 40vw;
+}
+
+
+#navbarSupportedContent{
+  margin: 0.5vw;
+}
+
+.navbar-nav{
+  display: flex;
+  margin: auto;
+  gap: 3vw;
+}
+
+.vl {
+  border-left: 6px solid rgb(255, 255, 255);
+  height: 500px;
+}
+
+.nav-item{
+  font-weight: bolder;
+}
+
+footer{
+  background-color: white;
+  text-align: center;
 }
