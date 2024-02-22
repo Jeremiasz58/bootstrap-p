@@ -1,0 +1,177 @@
+#container {
+  filter: grayscale(1);
+  backdrop-filter: blur(4px);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #48474c;
+  border-top: white solid 7px;
+  border-bottom: white solid 7px;
+}
+
+#backg {
+  background-image: url('guitars_bw4.png');
+  backdrop-filter: blur(4px);
+
+  background-size: contain;
+  background-position: center;
+}
+
+
+form {
+  height: 460px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+
+
+.vl {
+  border-left: 6px solid rgb(255, 255, 255);
+  height: 560px;
+}
+
+
+
+footer {
+  background-color: white;
+}
+
+form {
+  background-color: white;
+}
+
+#floatingTextarea2 {
+  resize: none;
+}
+
+@media (max-width: 1200px) {
+  .card-text {
+    font-size: 10px;
+  }
+
+  .accordion-body {
+    font-size: 10px;
+  }
+
+  .accordion-button {
+    font-size: 15px;
+  }
+
+  .card-title {
+    font-size: 15px;
+
+  }
+
+  .btn {
+    font-size: 10px;
+  }
+
+  .vl {
+    height: 300px;
+  }
+
+  form {
+    height: 300px;
+    font-size: 10px;
+
+  }
+
+  input {
+    height: 20px;
+  }
+
+  form form h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+}
+
+#caro1 .carousel-item {
+
+  transition: transform 1s ease, opacity .75s ease-out;
+
+}
+
+@media (max-width: 995px) {
+  .accordion {
+    display: none;
+
+
+  }
+
+  .vl {
+    display: none;
+  }
+}
+
+@media (max-width: 673px) {
+  .accordion {
+    display: none;
+
+
+  }
+
+  .card-title {
+    font-size: 8px;
+  }
+
+  .card-text {
+    font-size: 5px;
+  }
+
+  .vl {
+    display: none;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .nav-item {
+    font-size: 7px;
+  }
+
+  nav {
+    height: 10%;
+  }
+}
+
+@media (max-width: 475px) {
+  .accordion {
+    display: none;
+
+
+  }
+
+  .card-title {
+    font-size: 5px;
+  }
+
+  .card-text {
+    font-size: 3px;
+  }
+
+  .nav-item {
+    font-size: 3px;
+  }
+
+  .vl {
+    display: none;
+    height: 0;
+
+  }
+
+  #backg {
+    height: 100px;
+  }
+
+  nav {
+    display: none;
+  }
+}
+
+main {
+  height: 600px;
+}
